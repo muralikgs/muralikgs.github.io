@@ -2,6 +2,102 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Fonts
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../../fonts/Serif/cmunrm.eot');
+    src: url('../../fonts/Serif/cmunrm.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Serif/cmunrm.woff') format('woff'),
+         url('../../fonts/Serif/cmunrm.ttf') format('truetype'),
+         url('../../fonts/Serif/cmunrm.svg#cmunrm') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../../fonts/Serif/cmunbx.eot');
+    src: url('../../fonts/Serif/cmunbx.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Serif/cmunbx.woff') format('woff'),
+         url('../../fonts/Serif/cmunbx.ttf') format('truetype'),
+         url('../../fonts/Serif/cmunbx.svg#cmunbx') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../../fonts/Serif/cmunti.eot');
+    src: url('../../fonts/Serif/cmunti.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Serif/cmunti.woff') format('woff'),
+         url('../../fonts/Serif/cmunti.ttf') format('truetype'),
+         url('../../fonts/Serif/cmunti.svg#cmunti') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../../fonts/Serif/cmunbi.eot');
+    src: url('../../fonts/Serif/cmunbi.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Serif/cmunbi.woff') format('woff'),
+         url('../../fonts/Serif/cmunbi.ttf') format('truetype'),
+         url('../../fonts/Serif/cmunbi.svg#cmunbi') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* San Serif */
+
+@font-face {
+    font-family: 'Computer Modern San Serif';
+    src: url('../../fonts/Sans/cmunss.eot');
+    src: url('../../fonts/Sans/cmunss.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Sans/cmunss.woff') format('woff'),
+         url('../../fonts/Sans/cmunss.ttf') format('truetype'),
+         url('../../fonts/Sans/cmunss.svg#cmunrm') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern San Serif';
+    src: url('../../fonts/Sans/cmunsx.eot');
+    src: url('../../fonts/Sans/cmunsx.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Sans/cmunsx.woff') format('woff'),
+         url('../../fonts/Sans/cmunsx.ttf') format('truetype'),
+         url('../../fonts/Sans/cmunsx.svg#cmunbx') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern San Serif';
+    src: url('../../fonts/Sans/cmunsi.eot');
+    src: url('../../fonts/Sans/cmunsi.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Sans/cmunsi.woff') format('woff'),
+         url('../../fonts/Sans/cmunsi.ttf') format('truetype'),
+         url('../../fonts/Sans/cmunsi.svg#cmunti') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern San Serif';
+    src: url('../../fonts/Sans/cmunso.eot');
+    src: url('../../fonts/Sans/cmunso.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Sans/cmunso.woff') format('woff'),
+         url('../../fonts/Sans/cmunso.ttf') format('truetype'),
+         url('../../fonts/Sans/cmunso.svg#cmunbi') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
@@ -453,7 +549,7 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
       .author {
         a {
@@ -581,4 +677,12 @@ html.transition *:after {
       padding: 8px;
     }
   }
+}
+
+
+
+body {
+    /*font: 19px/1.4 $garamond;*/
+    font-family:  'Computer Modern Serif';
+    font-size: 18px;
 }
