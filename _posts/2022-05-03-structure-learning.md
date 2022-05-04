@@ -8,6 +8,8 @@ categories: graphical-models
 
 <p style='text-align: justify;'> This blog post is going to be a short survey of existing literature on structure learning of Bayesian network, which is a tremondously difficult problem to solve in general. For now, there is some starter text here from the template for math input, which would soon go.  </p>
 
+### Starter Text
+
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
 To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
