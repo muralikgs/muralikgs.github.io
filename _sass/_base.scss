@@ -102,7 +102,7 @@
 
 @font-face {
     font-family: 'Helvetica Local';
-    src: url('../../fonts/Helvetica-Font/HelveticaLt.ttf');
+    src: url('../../fonts/Helvetica-Font/HelveticaLt.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -716,7 +716,7 @@ html.transition *:after {
 
 body {
     /*font: 19px/1.4 $garamond;*/
- //   font-family:  'Computer Modern Serif';
-    font-family: 'Helvetica Local';
-    font-size: 16px;
+    font-family:  'Computer Modern Serif';
+    //font-family: 'Helvetica Local';
+    font-size: 18px;
 }
