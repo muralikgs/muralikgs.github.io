@@ -130,6 +130,37 @@
     font-style: italic;
 }
 
+/* Times New Roman */
+
+@font-face {
+  font-family: 'georgia local';
+  src: url('../../fonts/Georgia-Font/georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'georgia local';
+  src: url('../../fonts/Georgia-Font/georgiab.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'georgia local';
+  src: url('../../fonts/Georgia-Font/georgiai.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'georgia local';
+  src: url('../../fonts/Georgia-Font/georgiaz.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
 
 // Typography
 
@@ -716,7 +747,7 @@ html.transition *:after {
 body {
   /*font: 19px/1.4 $garamond;*/
 //   font-family:  'Computer Modern Serif';
-  font-family: 'Helvetica Local';
-  font-size: 16px;
+  font-family: 'georgia local';
+  font-size: 20px;
 }
 
