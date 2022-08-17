@@ -102,7 +102,7 @@
 
 @font-face {
     font-family: 'Helvetica Local';
-    src: url('../../fonts/Helvetica-Font/Helvetica.ttf') format('truetype');
+    src: url('../../fonts/Helvetica-Font/HelveticaLt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -110,14 +110,14 @@
 
 @font-face {
     font-family: 'Helvetica Local';
-    src: url('../../fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype');
+    src: url('../../fonts/Helvetica-Font/Helvetica.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helvetica Local';
-    src: url('../../fonts/Helvetica-Font/Helvetica-Oblique.ttf') format('truetype');
+    src: url('../../fonts/Helvetica-Font/HelveticaLtObl.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -125,7 +125,7 @@
 
 @font-face {
     font-family: 'Helvetica Local';
-    src: url('../../fonts/Helvetica-Font/Helvetica-BoldOblique.ttf') format('truetype');
+    src: url('../../fonts/Helvetica-Font/Helvetica-Oblique.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -747,7 +747,7 @@ html.transition *:after {
 body {
   /*font: 19px/1.4 $garamond;*/
 //   font-family:  'Computer Modern Serif';
-  font-family: 'georgia local';
-  font-size: 18px;
+  font-family: 'Helvetica Local';
+  font-size: 16px;
 }
 
