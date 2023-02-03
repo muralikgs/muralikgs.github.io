@@ -98,6 +98,38 @@
     font-style: italic;
 }
 
+/* Inter */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/InterTight-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/InterTight-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/InterTight-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/InterTight-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* Helvetica */
 
 @font-face {
@@ -746,8 +778,8 @@ html.transition *:after {
 
 body {
   // font: 16px/1.4 $fira-sans;
-  font-family:  'Computer Modern Serif';
-  // font-family: 'Helvetica Local';
-  font-size: 18px;
+  // font-family:  'Computer Modern Serif';
+  font-family: 'Inter';
+  font-size: 16px;
 }
 
