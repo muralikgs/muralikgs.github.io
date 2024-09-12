@@ -19,8 +19,16 @@
         <div class="container">
             <!-- Sidebar -->
             <aside class="sidebar">
+                <img
+                    src="{{site.url}}/images/profile.jpeg"
+                    alt="Your Name"
+                    class="sidebar-image"
+                />
                 <h3>{{site.title}}</h3>
-                <p>Email: <a href="mailto:{{site.email}}">{{site.email}}</a></p>
+                <p class="sml-text">{{site.description}}</p>
+                <p class="sml-text">
+                    Email: <a href="mailto:{{site.email}}">{{site.email}}</a>
+                </p>
             </aside>
 
             <!-- Main Content -->
