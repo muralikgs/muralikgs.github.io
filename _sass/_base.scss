@@ -1,0 +1,41 @@
+// _sass/_base.scss
+
+// Basic Reset and General Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+  margin: 20px;
+}
+
+// Header Styles
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+  border-bottom: 2px solid #ddd;
+}
+
+.header .left {
+  font-size: 24px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.header .right a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  padding: 0 10px;
+}
+
+.header .right a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}

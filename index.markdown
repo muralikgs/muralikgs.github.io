@@ -5,7 +5,7 @@
 layout: page
 ---
 
-
+# About me
 
 I'm a Ph.D. candidate at [Georgia Tech](https://www.gatech.edu/) advised by Prof. [Faramarz Fekri](https://fekri.ece.gatech.edu/).
 My research primarily focuses on Machine Learning, Probabilistic graphical models and Causal Discovery. In particular, I'm interested in

@@ -1,13 +1,30 @@
----
----
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Website with Sidebar</title>
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/custom.css' | relative_url }}"
+        />
+    </head>
+    <body>
+        <div class="header">
+            <span class="left"><a href="{{site.url}}">{{site.title}}</a></span>
+            <span class="right"><a href="{{site.url}}/cv/">CV</a></span>
+        </div>
 
-<table width="100%">
-  <tr>
-    <td align="left"><font size="6"><a href={{site.url}}>{{site.title}}</a></font></td>
-    <td align="right"><a href={{site.url}}/cv/>CV</a></td>
-  </tr>
-</table>
+        <hr />
+        <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h3>{{site.title}}</h3>
+                <p>Email: <a href="mailto:{{site.email}}">{{site.email}}</a></p>
+            </aside>
 
-<hr />
-
-{{content}}
+            <!-- Main Content -->
+            <main class="content">{{ content }}</main>
+        </div>
+    </body>
+</html>
