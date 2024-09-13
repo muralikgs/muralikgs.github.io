@@ -58,7 +58,6 @@ body {
 .sidebar {
     width: 250px;
     padding: 15px;
-    height: 100vh;
     background-color: #ffffff;
     /* border-right: 1px solid #ddd; */
     text-align: center;
@@ -66,7 +65,7 @@ body {
 
 /* Image Styling */
 .sidebar-image {
-    width: 80%; /* Adjusts width of the image to 80% of the sidebar's width */
+    width: 200px; /* Adjusts width of the image to 80% of the sidebar's width */
     border-radius: 50%; /* Makes the image circular (optional) */
     margin-bottom: 10px; /* Adds space below the image */
     align-content: center;
@@ -77,10 +76,6 @@ body {
     font-family: Georgia;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.sml-text {
-    font-size: 14px;
 }
 
 .sml-text-col {
@@ -119,6 +114,15 @@ body {
     text-decoration: none;
 }
 
+.container a {
+    text-decoration: none;
+    color: #4c0099;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -128,7 +132,6 @@ body {
     .sidebar {
         width: 100%;
         border-right: none;
-        border-bottom: 1px solid #ddd;
     }
 
     .header .right {
@@ -159,4 +162,27 @@ h1,
 h2,
 h3 {
     font-family: Georgia;
+}
+
+.sidebar-icon {
+    color: #333; /* Adjust color as needed */
+    font-size: 50px; /* Adjust size as needed */
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+.sidebar-icon:hover {
+    color: #007bff; /* Adjust hover color as needed */
+}
+
+.email-link {
+    color: #333; /* Adjust color as needed */
+    font-size: 40px; /* Adjust size as needed */
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.email-link:hover {
+    color: #007bff; /* Adjust hover color as needed */
 }
