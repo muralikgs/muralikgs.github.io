@@ -12,12 +12,29 @@
     <body>
         <div class="header">
             <span class="left"><a href="{{site.url}}">{{site.title}}</a></span>
+            <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
             <div class="right">
             {% for page in site.pages %} {% if page.linktoheader == true %}
             <span class="header-link"><a href="{{page.url}}">{{page.title}}</a></span>
             {% endif %} {% endfor %}
             </div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                {% for page in site.pages %} {% if page.linktoheader == true %}
+                <a href="{{page.url}}">{{page.title}}</a>
+                {% endif %} {% endfor %}
+            </div>
         </div>
+        
+        <script>
+            function toggleMenu() {
+                var dropdownMenu = document.getElementById("dropdownMenu");
+                if (dropdownMenu.style.display === "block") {
+                    dropdownMenu.style.display = "none";
+                } else {
+                    dropdownMenu.style.display = "block";
+                }
+            }
+        </script>
 
         <div class="container">
             <!-- Sidebar -->

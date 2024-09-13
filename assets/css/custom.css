@@ -8,20 +8,20 @@
     padding-bottom: 25px;
 }
 
-.left {
+.header .left {
     /* Aligns Murali to the left */
     font-size: 25px; /* Adjust the font size as needed */
     font-family: Georgia;
     font-weight: bold;
 }
 
-.left a {
+.header .left a {
     text-decoration: none;
     color: white;
 }
 
-.left a:hover {
-    text-decoration: underline;
+.header .left a:hover {
+    color: #e0e0e0;
 }
 
 .header-link {
@@ -29,18 +29,18 @@
     margin-left: 10px;
 }
 
-.right {
+.header .right {
     /* Aligns the link to the right */
     text-align: right;
 }
 
-.right a {
+.header .right a {
     text-decoration: none; /* Removes the underline from the link */
     color: white; /* Adjusts the link color */
 }
 
-.right a:hover {
-    text-decoration: underline;
+.header .right a:hover {
+    color: #e0e0e0;
 }
 
 body {
@@ -94,6 +94,31 @@ body {
     padding: 20px;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: #4c0099;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.dropdown-menu a {
+    display: none;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -104,6 +129,29 @@ body {
         width: 100%;
         border-right: none;
         border-bottom: 1px solid #ddd;
+    }
+
+    .header .right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .dropdown-menu a {
+        display: block;
+    }
+
+    .menu-icon a:hover {
+        color: #e0e0e0;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #330066;
+        color: #e0e0e0;
+        border: 1px solid gray;
+        border-radius: 8px; /* Adjust the value for more or less rounded corners */
     }
 }
 
