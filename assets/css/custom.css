@@ -1,26 +1,39 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; /* Optional padding */
-    background-color: #4c0099;
-    padding-top: 25px;
-    padding-bottom: 25px;
+/* CSS for the header */
+.main-header {
+    background-color: #4c0099; /* Background color for the header */
+    padding: 0; /* Remove padding around the header */
+    width: 99%; /* Full width */
+    position: fixed; /* Sticks the header to the top */
+    top: 0; /* Align to top */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    left: 0;
+    padding-right: 30px;
+    margin-bottom: 10px;
 }
 
-.header .left {
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.header-container .left {
     /* Aligns Murali to the left */
     font-size: 25px; /* Adjust the font size as needed */
     font-family: Georgia;
     font-weight: bold;
 }
 
-.header .left a {
+.header-container .left a {
     text-decoration: none;
     color: white;
 }
 
-.header .left a:hover {
+.header-container .left a:hover {
     color: #e0e0e0;
 }
 
@@ -29,17 +42,17 @@
     margin-left: 10px;
 }
 
-.header .right {
+.header-container .right {
     /* Aligns the link to the right */
     text-align: right;
 }
 
-.header .right a {
+.header-container .right a {
     text-decoration: none; /* Removes the underline from the link */
     color: white; /* Adjusts the link color */
 }
 
-.header .right a:hover {
+.header-container .right a:hover {
     color: #e0e0e0;
 }
 
@@ -52,7 +65,9 @@ body {
 
 .container {
     display: flex;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin: 100px auto; /* Center the container */
+    padding: 40px 200px; /* Add padding on left and right */
 }
 
 .sidebar {
@@ -124,9 +139,10 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .container {
         flex-direction: column;
+        padding: 20px 30px;
     }
 
     .sidebar {
@@ -134,7 +150,7 @@ body {
         border-right: none;
     }
 
-    .header .right {
+    .header-container .right {
         display: none;
     }
 

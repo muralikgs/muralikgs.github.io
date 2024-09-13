@@ -14,22 +14,28 @@
         />
     </head>
     <body>
-        <div class="header">
-            <span class="left"><a href="{{site.url}}">{{site.title}}</a></span>
-            <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
-            <div class="right">
-                {% for page in site.pages %} {% if page.linktoheader == true %}
-                <span class="header-link"
-                    ><a href="{{page.url}}">{{page.title}}</a></span
+        <header class="main-header">
+            <div class="header-container">
+                <span class="left"
+                    ><a href="{{site.url}}">{{site.title}}</a></span
                 >
-                {% endif %} {% endfor %}
+                <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+                <div class="right">
+                    {% for page in site.pages %} {% if page.linktoheader == true
+                    %}
+                    <span class="header-link"
+                        ><a href="{{page.url}}">{{page.title}}</a></span
+                    >
+                    {% endif %} {% endfor %}
+                </div>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    {% for page in site.pages %} {% if page.linktoheader == true
+                    %}
+                    <a href="{{page.url}}">{{page.title}}</a>
+                    {% endif %} {% endfor %}
+                </div>
             </div>
-            <div class="dropdown-menu" id="dropdownMenu">
-                {% for page in site.pages %} {% if page.linktoheader == true %}
-                <a href="{{page.url}}">{{page.title}}</a>
-                {% endif %} {% endfor %}
-            </div>
-        </div>
+        </header>
 
         <script>
             function toggleMenu() {
@@ -54,23 +60,33 @@
                 <p class="sml-text-col">{{site.description}}</p>
                 <span>
                     <a href="mailto:{{site.email}}" class="email-link">
-                        <i class="fas fa-envelope"></i> <!-- Font Awesome Mail Icon -->
+                        <i class="fas fa-envelope"></i>
+                        <!-- Font Awesome Mail Icon -->
                     </a>
                 </span>
                 <span>
-                    <a href="https://github.com/{{site.github_username}}" class="email-link">
+                    <a
+                        href="https://github.com/{{site.github_username}}"
+                        class="email-link"
+                    >
                         <i class="fab fa-github"></i>
                         <!-- Font Awesome Mail Icon -->
                     </a>
                 </span>
                 <span>
-                    <a href="https://scholar.google.com/citations?user={{site.google_scholar}}" class="email-link">
+                    <a
+                        href="https://scholar.google.com/citations?user={{site.google_scholar}}"
+                        class="email-link"
+                    >
                         <i class="fas fa-graduation-cap"></i>
                         <!-- Font Awesome Mail Icon -->
                     </a>
                 </span>
                 <span>
-                    <a href="https://linkedin.com/in/{{site.linkedin}}" class="email-link">
+                    <a
+                        href="https://linkedin.com/in/{{site.linkedin}}"
+                        class="email-link"
+                    >
                         <i class="fab fa-linkedin"></i>
                         <!-- Font Awesome Mail Icon -->
                     </a>
