@@ -12,10 +12,13 @@
     <body>
         <div class="header">
             <span class="left"><a href="{{site.url}}">{{site.title}}</a></span>
-            <span class="right"><a href="{{site.url}}/cv/">CV</a></span>
+            <div class="right">
+            {% for page in site.pages %} {% if page.linktoheader == true %}
+            <span class="header-link"><a href="{{page.url}}">{{page.title}}</a></span>
+            {% endif %} {% endfor %}
+            </div>
         </div>
 
-        <hr />
         <div class="container">
             <!-- Sidebar -->
             <aside class="sidebar">
@@ -24,8 +27,8 @@
                     alt="Your Name"
                     class="sidebar-image"
                 />
-                <h3>{{site.title}}</h3>
-                <p class="sml-text">{{site.description}}</p>
+                <p class="name">{{site.title}}</p>
+                <p class="sml-text-col">{{site.description}}</p>
                 <p class="sml-text">
                     Email: <a href="mailto:{{site.email}}">{{site.email}}</a>
                 </p>

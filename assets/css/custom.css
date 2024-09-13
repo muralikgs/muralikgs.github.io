@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px; /* Optional padding */
+    background-color: #4c0099;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .left {
@@ -14,27 +17,42 @@
 
 .left a {
     text-decoration: none;
-    color: purple;
+    color: white;
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.header-link {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .right {
     /* Aligns the link to the right */
+    text-align: right;
 }
 
 .right a {
     text-decoration: none; /* Removes the underline from the link */
-    color: purple; /* Adjusts the link color */
+    color: white; /* Adjusts the link color */
+}
+
+.right a:hover {
+    text-decoration: underline;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    margin-left: 75px;
-    margin-right: 300px;
+    /* margin-left: 75px;
+    margin-right: 300px; */
     padding: 0;
 }
 
 .container {
     display: flex;
+    margin-top: 40px;
 }
 
 .sidebar {
@@ -43,6 +61,7 @@ body {
     height: 100vh;
     background-color: #ffffff;
     /* border-right: 1px solid #ddd; */
+    text-align: center;
 }
 
 /* Image Styling */
@@ -50,10 +69,24 @@ body {
     width: 80%; /* Adjusts width of the image to 80% of the sidebar's width */
     border-radius: 50%; /* Makes the image circular (optional) */
     margin-bottom: 10px; /* Adds space below the image */
+    align-content: center;
+}
+
+.name {
+    font-size: 23px;
+    font-family: Georgia;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .sml-text {
     font-size: 14px;
+}
+
+.sml-text-col {
+    font-size: 14px;
+    margin-top: 0px;
+    color: gray;
 }
 
 .content {

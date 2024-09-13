@@ -2,6 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
+linktoheader: true
 ---
 
 # CV
@@ -16,3 +17,10 @@ permalink: /cv/
 
 - Bachelors in Electronics and Communication Engineering (May 2018)
   - National Institute of Technology, Trichy, India
+  
+## Work Experience
+- Intern - AIML (Research and Development), **Genentech** (May 2022 - Aug 2022)
+- Intern - CV/ML (Algorithms Team), **KLA Corporation** (May 2021 - Aug 2022)
+
+
+
