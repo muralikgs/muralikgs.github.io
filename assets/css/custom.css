@@ -67,15 +67,19 @@ body {
     display: flex;
     /* margin-top: 40px; */
     margin: 100px auto; /* Center the container */
-    padding: 40px 200px; /* Add padding on left and right */
+    padding: 40px 450px; /* Add padding on left and right */
+    left: 0;
 }
 
 .sidebar {
     width: 250px;
-    padding: 15px;
+    /* padding: 15px; */
     background-color: #ffffff;
     /* border-right: 1px solid #ddd; */
     text-align: center;
+    left: 0%;
+    margin-right: 25px;
+    margin-top: 25px;
 }
 
 /* Image Styling */
@@ -116,7 +120,7 @@ body {
     background-color: #4c0099;
     position: absolute;
     top: 60px;
-    right: 10px;
+    right: 40px;
     padding: 10px;
     border: 1px solid white;
     border-radius: 8px;
@@ -140,6 +144,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 1000px) {
+    .header-container .left {
+        /* Aligns Murali to the left */
+        font-size: 18px; /* Adjust the font size as needed */
+    }
     .container {
         flex-direction: column;
         padding: 20px 30px;
