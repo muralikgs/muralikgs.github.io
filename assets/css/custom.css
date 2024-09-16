@@ -125,7 +125,6 @@ body {
     top: 60px;
     right: 40px;
     padding: 10px;
-    border: 1px solid white;
     border-radius: 8px;
 
     backdrop-filter: blur(10px); /* Apply Gaussian blur */
@@ -183,7 +182,6 @@ body {
     .dropdown-menu a:hover {
         background-color: #330066;
         color: #e0e0e0;
-        border: 1px solid gray;
         border-radius: 8px; /* Adjust the value for more or less rounded corners */
     }
 }
