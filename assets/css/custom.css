@@ -1,6 +1,7 @@
 /* CSS for the header */
 .main-header {
-    background-color: #4c0099; /* Background color for the header */
+    background: linear-gradient(rgba(76, 0, 153, 0.1), rgba(0, 0, 0, 0));
+    /* background-color: rgba(76, 0, 153, 0.1); */
     padding: 0; /* Remove padding around the header */
     width: 99%; /* Full width */
     position: fixed; /* Sticks the header to the top */
@@ -9,6 +10,8 @@
     left: 0;
     padding-right: 30px;
     margin-bottom: 10px;
+    backdrop-filter: blur(10px); /* Apply Gaussian blur */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
 }
 
 .header-container {
@@ -30,11 +33,11 @@
 
 .header-container .left a {
     text-decoration: none;
-    color: white;
+    color: #4c0099;
 }
 
 .header-container .left a:hover {
-    color: #e0e0e0;
+    color: rgb(50, 50, 50);
 }
 
 .header-link {
@@ -49,11 +52,11 @@
 
 .header-container .right a {
     text-decoration: none; /* Removes the underline from the link */
-    color: white; /* Adjusts the link color */
+    color: #4c0099; /* Adjusts the link color */
 }
 
 .header-container .right a:hover {
-    color: #e0e0e0;
+    color: rgb(50, 50, 50);
 }
 
 body {
@@ -66,8 +69,8 @@ body {
 .container {
     display: flex;
     /* margin-top: 40px; */
-    margin: 100px auto; /* Center the container */
-    padding: 40px 450px; /* Add padding on left and right */
+    margin: 75px auto; /* Center the container */
+    padding: 40px 300px; /* Add padding on left and right */
     left: 0;
 }
 
@@ -112,24 +115,27 @@ body {
     display: none;
     font-size: 24px;
     cursor: pointer;
-    color: white;
+    color: #4c0099;
 }
 
 .dropdown-menu {
     display: none;
-    background-color: #4c0099;
+    background-color: rgba(76, 0, 153, 0.1);
     position: absolute;
     top: 60px;
     right: 40px;
     padding: 10px;
     border: 1px solid white;
     border-radius: 8px;
+
+    backdrop-filter: blur(10px); /* Apply Gaussian blur */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
 }
 
 .dropdown-menu a {
     display: none;
     padding: 5px;
-    color: white;
+    color: #4c0099;
     text-decoration: none;
 }
 
