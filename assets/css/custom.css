@@ -1,6 +1,6 @@
 /* CSS for the header */
 .main-header {
-    background: linear-gradient(rgba(76, 0, 153, 0.1), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(76, 0, 153, 0.2), rgba(0, 0, 0, 0));
     /* background-color: rgba(76, 0, 153, 0.1); */
     padding: 0; /* Remove padding around the header */
     width: 99%; /* Full width */
@@ -116,19 +116,22 @@ body {
     font-size: 24px;
     cursor: pointer;
     color: #4c0099;
+    position: relative;
 }
 
 .dropdown-menu {
     display: none;
+    /* background-color: #4c0099; */
     background-color: rgba(76, 0, 153, 0.1);
     position: absolute;
-    top: 60px;
-    right: 40px;
+    font-size: 14px;
+    top: 30px;
+    left: 0px;
     padding: 10px;
     border-radius: 8px;
 
-    backdrop-filter: blur(10px); /* Apply Gaussian blur */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    /*backdrop-filter: blur(10px); */ /* Apply Gaussian blur */ 
+    /*-webkit-backdrop-filter: blur(10px);*/ /*For Safari */
 }
 
 .dropdown-menu a {
@@ -180,9 +183,11 @@ body {
     }
 
     .dropdown-menu a:hover {
-        background-color: #330066;
-        color: #e0e0e0;
+        background-color: rgb(224, 203, 246);
+        color: rgb(50, 50, 50);
+        /* background-color: black; */
         border-radius: 8px; /* Adjust the value for more or less rounded corners */
+
     }
 }
 
