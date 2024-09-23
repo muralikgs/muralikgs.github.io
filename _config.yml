@@ -33,6 +33,7 @@ linkedin: muralikgs
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-scholar
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -56,5 +57,10 @@ plugins:
 include:
   - assets
 
-sass:
-  sass_dir: _sass
+
+scholar: 
+  style: apa
+  locale: en
+  source: /assets/bibliography/
+  bibliography: publications.bib
+  
