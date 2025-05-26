@@ -1,11 +1,16 @@
 [
     {
-        "year": "2024",
-        "author": "Sethuraman, Muralikrishnna G. and McSweeney, Megan and Styczinski, Mark and Fekri, Faramarz",
-        "title": "Construction of an Array of Biosensors using Density Evolution for MicroRNA Monitoring",
-        "booktitle": "Preprint Under Review",
-        "ENTRYTYPE": "inproceedings",
-        "ID": "sethuraman2024learning"
+        "doi": "10.1109/TMBMC.2025.3547892",
+        "keywords": "Biomarkers;Sensors;Biosensors;RNA;Diseases;Vectors;Proteins;Evolution (biology);Monitoring;Density measurement;compressed sensing;miRNAs;toehold switches;density evolution;message passing",
+        "pages": "1-1",
+        "number": "",
+        "volume": "",
+        "year": "2025",
+        "title": "Construction of an Array of Biosensors Using Density Evolution for MicroRNA Monitoring",
+        "journal": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
+        "author": "Sethuraman, Muralikrishnna G. and McSweeney, Megan A. and Styczynski, Mark P. and Fekri, Faramarz",
+        "ENTRYTYPE": "article",
+        "ID": "10909690"
     },
     {
         "year": "2024",

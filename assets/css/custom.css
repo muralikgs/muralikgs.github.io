@@ -60,7 +60,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     /* margin-left: 75px;
     margin-right: 300px; */
     padding: 0;
@@ -95,7 +95,7 @@ body {
 
 .name {
     font-size: 23px;
-    font-family: Georgia;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 5px;
     margin-bottom: 5px;
 }
