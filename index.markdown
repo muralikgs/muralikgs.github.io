@@ -8,8 +8,11 @@ title: Home
 
 # About me
 
-I'm a Ph.D. candidate at [Georgia Tech](https://www.gatech.edu/) advised by Prof. [Faramarz Fekri](https://fekri.ece.gatech.edu/).
-My research primarily focuses on Machine Learning, Probabilistic graphical models and Causal Discovery. In particular, I'm interested in
-understanding the feasibility of recovering cyclic causal graph structure from observational and interventional data under various real-world constraints (including unmeasured confounding, missing data, and measurement noise). Previously, I got my Masters from Georgia Tech and I did my undergraduate studies at National Institute of Technology, Trichy ([NITT](https://www.nitt.edu/)). During my Ph.D. I completed an internship at [Genentech](https://www.gene.com), where I had the pleasure of working with [Jan-Christian Hütter](https://www.jchuetter.com/).
+<div style="text-align: justify;">
+
+I'm a Ph.D. candidate at <a href="https://www.gatech.edu/">Georgia Tech</a> advised by Prof. <a href="https://fekri.ece.gatech.edu/">Faramarz Fekri</a>.
+My research primarily focuses on Machine Learning, Probabilistic graphical models and Causal Discovery. In particular, I'm interested in understanding the feasibility of recovering cyclic causal graph structure from observational and interventional data under various real-world constraints (including unmeasured confounding, missing data, and measurement noise). Previously, I got my Masters from Georgia Tech and I did my undergraduate studies at National Institute of Technology, Trichy (<a href="https://www.nitt.edu/">NITT</a>). During my Ph.D. I completed an internship at <a href="https://www.gene.com">Genentech</a>, where I had the pleasure of working with <a href="https://www.jchuetter.com/">Jan-Christian Hütter</a>.
+
+</div>
 
 
