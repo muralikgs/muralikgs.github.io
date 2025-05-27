@@ -18,7 +18,7 @@ linktoheader: true
 <span>
     <strong> {{ publication.title }}</strong><br>
     {{ publication.author }},<br> 
-    In <i>{{ publication.booktitle }}</i>  ({{ publication.year }})<br> 
+    In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
 </span>
 {% endif %}
 {% endfor %}
