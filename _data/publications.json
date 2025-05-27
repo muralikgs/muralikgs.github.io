@@ -47,7 +47,7 @@
     },
     {
         "slides": "allerton-presentation.pdf",
-        "supp": "supplementary_notes_allerton.pdf",
+        "supp": "../assets/pdf/supplementary_materials_allerton.pdf",
         "pdf": "https://ieeexplore.ieee.org/document/10313414",
         "selected": "true",
         "bibtex_show": "true",
