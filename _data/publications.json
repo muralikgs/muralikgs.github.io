@@ -1,5 +1,6 @@
 [
     {
+        "pdf": "../assets/pdf/dccd_conf_preprint.pdf",
         "year": "2025",
         "author": "Sethuraman, Muralikrishnna G. and Fekri, Faramarz",
         "title": "Differentiable Cyclic Causal Discovery Under Unmeasured Confounders",
@@ -10,6 +11,7 @@
     {
         "doi": "10.1109/TMBMC.2025.3547892",
         "keywords": "Biomarkers;Sensors;Biosensors;RNA;Diseases;Vectors;Proteins;Evolution (biology);Monitoring;Density measurement;compressed sensing;miRNAs;toehold switches;density evolution;message passing",
+        "pdf": "https://ieeexplore.ieee.org/document/10909690",
         "pages": "1-1",
         "number": "",
         "volume": "",
@@ -21,6 +23,7 @@
         "ID": "10909690"
     },
     {
+        "pdf": "https://arxiv.org/pdf/2410.18918",
         "year": "2024",
         "author": "Sethuraman, Muralikrishnna G. and Nabi, Razieh and Fekri, Faramarz",
         "title": "Learning Cyclic Causal Graphs from Incomplete Data",
@@ -45,7 +48,7 @@
     {
         "slides": "allerton-presentation.pdf",
         "supp": "supplementary_notes_allerton.pdf",
-        "pdf": "allerton_final_version.pdf",
+        "pdf": "https://ieeexplore.ieee.org/document/10313414",
         "selected": "true",
         "bibtex_show": "true",
         "copyright": "Creative Commons Attribution 4.0 International",

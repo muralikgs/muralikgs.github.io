@@ -10,8 +10,8 @@ linktoheader: true
 
 {% for year in page.years %}
 
-<h3>{{ year }}</h3>
-<hr>
+<h3 style="text-align: right; color: #E3E3E3;">{{ year }}</h3>
+<hr style="border: 0; border-top: 1px solid #E3E3E3; margin: 4px 0;">
 
 {% for publication in site.data.publications %}
 {% if publication.year == year %}
@@ -19,6 +19,7 @@ linktoheader: true
     <strong> {{ publication.title }}</strong><br>
     {{ publication.author }},<br> 
     In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
+    {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]<br>{% endif %}
 </span>
 {% endif %}
 {% endfor %}

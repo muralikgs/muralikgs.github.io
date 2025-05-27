@@ -27,7 +27,7 @@
 .header-container .left {
     /* Aligns Murali to the left */
     font-size: 25px; /* Adjust the font size as needed */
-    font-family: Georgia;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
@@ -64,6 +64,7 @@ body {
     /* margin-left: 75px;
     margin-right: 300px; */
     padding: 0;
+    text-align: justify;
 }
 
 .container {
@@ -194,7 +195,8 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Georgia;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .sidebar-icon {
