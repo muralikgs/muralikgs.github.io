@@ -1,6 +1,7 @@
 [
     {
-        "pdf": "https://arxiv.org/abs/2508.08450",
+        "code": "https://github.com/muralikgs/dccd_conf",
+        "pdf": "https://openreview.net/pdf?id=95z3psF9zJ",
         "year": "2025",
         "author": "Sethuraman, Muralikrishnna G. and Fekri, Faramarz",
         "title": "Differentiable Cyclic Causal Discovery Under Unmeasured Confounders",

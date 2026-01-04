@@ -19,7 +19,7 @@ linktoheader: true
     <strong> {{ publication.title }}</strong><br>
     {{ publication.author }},<br> 
     In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
-    {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]{% endif %} {% if publication.supp %}[<a href="{{ publication.supp }}">supp</a>]{% endif %} {% if publication.code %}[<a href="{{ publication.code }}">code</a>]{% endif %}<br>
+    {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]{% endif %} {% if publication.supp %}[<a href="{{ publication.supp }}">supp</a>]{% endif %} {% if publication.code %}[<a href="{{ publication.code }}">code</a>]{% endif %} {% if publication.video %}[<a href="{{ publication.video }}">video</a>]{% endif %}<br>
 </span>
 {% endif %}
 {% endfor %}
