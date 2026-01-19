@@ -65,7 +65,7 @@
                 <p class="name">{{site.title}}</p>
                 <p class="sml-text-col">{{site.description}}</p>
                 <span>
-                    <a href="mailto:{{site.email}}" class="email-link">
+                    <a href="mailto:{{site.email}}" class="email-link" title="Mail">
                         <i class="fas fa-envelope"></i>
                         <!-- Font Awesome Mail Icon -->
                     </a>
@@ -74,6 +74,7 @@
                     <a
                         href="https://github.com/{{site.github_username}}"
                         class="email-link"
+                        title="Github"
                     >
                         <i class="fab fa-github"></i>
                         <!-- Font Awesome Mail Icon -->
@@ -83,6 +84,7 @@
                     <a
                         href="https://scholar.google.com/citations?user={{site.google_scholar}}"
                         class="email-link"
+                        title="Google Scholar"
                     >
                         <i class="fas fa-graduation-cap"></i>
                         <!-- Font Awesome Mail Icon -->
@@ -92,9 +94,21 @@
                     <a
                         href="https://linkedin.com/in/{{site.linkedin}}"
                         class="email-link"
+                        title="Linkedin"
                     >
                         <i class="fab fa-linkedin"></i>
                         <!-- Font Awesome Mail Icon -->
+                    </a>
+                </span>
+                <span>
+                    <a
+                        href="{{ '/assets/pdf/resume_murali_g_sethuraman.pdf' | relative_url }}"
+                        class="email-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Resume (PDF)"
+                    >
+                        <i class="fa-solid fa-briefcase"></i>
                     </a>
                 </span>
             </aside>
