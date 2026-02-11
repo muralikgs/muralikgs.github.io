@@ -81,9 +81,15 @@ body {
     background-color: #ffffff;
     /* border-right: 1px solid #ddd; */
     text-align: center;
-    left: 0%;
+    left: 10%;
     margin-right: 25px;
     margin-top: 25px;
+
+    position: sticky;
+    top: 110px; /* keep below the fixed header */
+    align-self: flex-start;
+    height: calc(100vh - 110px);
+    overflow-y: auto;
 }
 
 /* Image Styling */
@@ -165,6 +171,11 @@ body {
     .sidebar {
         width: 100%;
         border-right: none;
+
+        position: static;
+        top: auto;
+        height: auto;
+        overflow-y: visible;
     }
 
     .header-container .right {

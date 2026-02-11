@@ -15,17 +15,17 @@ linktoheader: true
 
 {% for publication in site.data.publications %}
 {% if publication.year == year %}
-<span>
-    <strong> {{ publication.title }}</strong><br>
+<div class="publication-entry">
+    <strong>{{ publication.title }}</strong><br>
     {% assign my_name = "Sethuraman, Muralikrishnna G." %}
     {% if publication.author contains my_name %}
-    {{ publication.author | replace: my_name, '<span class="author-me">Sethuraman, Muralikrishnna G.</span>' }},<br>
+    {{ publication.author | replace: my_name, '<span class="author-me">Sethuraman, Muralirishnna G.</span>' }},<br>
     {% else %}
     {{ publication.author }},<br>
     {% endif %}
     In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
     {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]{% endif %} {% if publication.supp %}[<a href="{{ publication.supp }}">supp</a>]{% endif %} {% if publication.code %}[<a href="{{ publication.code }}">code</a>]{% endif %} {% if publication.video %}[<a href="{{ publication.video }}">video</a>]{% endif %}<br>
-</span>
+</div>
 {% endif %}
 {% endfor %}
 
