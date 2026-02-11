@@ -8,7 +8,7 @@
     top: 0; /* Align to top */
     z-index: 1000; /* Ensure it stays on top of other content */
     left: 0;
-    padding-right: 30px;
+    padding-right: 40px;
     margin-bottom: 10px;
     backdrop-filter: blur(10px); /* Apply Gaussian blur */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
@@ -27,6 +27,7 @@
 .header-container .left {
     /* Aligns Murali to the left */
     font-size: 25px; /* Adjust the font size as needed */
+    padding-right: 225px;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -71,7 +72,7 @@ body {
     display: flex;
     /* margin-top: 40px; */
     margin: 75px auto; /* Center the container */
-    padding: 40px 300px; /* Add padding on left and right */
+    padding: 40px 200px; /* Add padding on left and right */
     left: 0;
 }
 

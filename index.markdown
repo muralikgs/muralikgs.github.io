@@ -8,7 +8,7 @@ title: Home
 
 # About me
 
-<div style="text-align: justify;">
+<div>
 
 I'm a Ph.D. candidate at <a href="https://www.gatech.edu/">Georgia Tech</a> advised by Prof. <a href="https://fekri.ece.gatech.edu/">Faramarz Fekri</a>.
 My research primarily focuses on Machine Learning, Probabilistic graphical models and Causal Discovery. In particular, I'm interested in understanding the feasibility of recovering cyclic causal graph structure from observational and interventional data under various real-world constraints (including unmeasured confounding, missing data, and measurement noise). Previously, I got my Masters from Georgia Tech and I did my undergraduate studies at National Institute of Technology, Trichy (<a href="https://www.nitt.edu/">NITT</a>). During my Ph.D. I completed an internship at <a href="https://www.gene.com">Genentech</a>, where I had the pleasure of working with <a href="https://www.jchuetter.com/">Jan-Christian Hütter</a>.
