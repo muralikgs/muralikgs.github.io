@@ -226,3 +226,7 @@ ul.publications {
     list-style-type: none; /* Removes bullet points */
     padding-left: 0;       /* Removes default indentation */
   }
+
+.author-me {
+    text-decoration: underline;
+}
