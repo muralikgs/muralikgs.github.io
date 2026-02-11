@@ -19,7 +19,7 @@ linktoheader: true
     <strong>{{ publication.title }}</strong><br>
     {% assign my_name = "Sethuraman, Muralikrishnna G." %}
     {% if publication.author contains my_name %}
-    {{ publication.author | replace: my_name, '<span class="author-me">Sethuraman, Muralirishnna G.</span>' }},<br>
+    {{ publication.author | replace: my_name, '<span class="author-me">Sethuraman, Muralikrishnna G.</span>' }},<br>
     {% else %}
     {{ publication.author }},<br>
     {% endif %}
