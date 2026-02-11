@@ -10,7 +10,7 @@ linktoheader: true
 
 {% for year in page.years %}
 
-<h3 style="text-align: right; color: #E3E3E3;">{{ year }}</h3>
+<h3 style="text-align: right; color: #acabab;">{{ year }}</h3>
 <hr style="border: 0; border-top: 1px solid #E3E3E3; margin: 4px 0;">
 
 {% for publication in site.data.publications %}
