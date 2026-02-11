@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 /* CSS for the header */
 .main-header {
@@ -30,9 +30,9 @@
 
 .header-container .left {
     /* Aligns Murali to the left */
-    font-size: 25px; /* Adjust the font size as needed */
+    font-size: 30px; /* Adjust the font size as needed */
     padding-right: 0px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Crimson Text', 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
@@ -65,9 +65,9 @@
 }
 
 body {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 16px;
-    line-height: 1.4;
+    font-family: 'Crimson Text', 'Libre Baskerville', serif;
+    font-size: 18px;
+    line-height: 1.2;
     /* margin-left: 75px;
     margin-right: 300px; */
     padding: 0;
@@ -150,7 +150,7 @@ body {
 .dropdown-menu a {
     display: none;
     padding: 5px;
-    color: #4c0099;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Crimson Text', 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
