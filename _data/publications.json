@@ -1,11 +1,19 @@
 [
     {
+        "year": "2026",
+        "author": " Alpar Turkoglu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
+        "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
+        "booktitle": "Preprint Under Review",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "sethuraman2024differentiable"
+    },
+    {
         "code": "https://github.com/muralikgs/dccd_conf",
         "pdf": "https://openreview.net/pdf?id=95z3psF9zJ",
         "year": "2025",
-        "author": "Sethuraman, Muralikrishnna G. and Fekri, Faramarz",
+        "author": " Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "Differentiable Cyclic Causal Discovery Under Unmeasured Confounders",
-        "booktitle": "Advances in Neural Information Processing Systems (NeurIPS) (Spotlight—top 4% of submissions)",
+        "booktitle": "Advances in Neural Information Processing Systems (NeurIPS) (Spotlight\u2014top 4% of submissions)",
         "ENTRYTYPE": "inproceedings",
         "ID": "sethuraman2024differentiable"
     },
@@ -19,14 +27,14 @@
         "year": "2025",
         "title": "Construction of an Array of Biosensors Using Density Evolution for MicroRNA Monitoring",
         "journal": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
-        "author": "Sethuraman, Muralikrishnna G. and McSweeney, Megan A. and Styczynski, Mark P. and Fekri, Faramarz",
+        "author": " Muralikrishnna G. Sethuraman,  Megan A. McSweeney,  Mark P. Styczynski, and  Faramarz Fekri",
         "ENTRYTYPE": "article",
         "ID": "10909690"
     },
     {
         "pdf": "https://arxiv.org/pdf/2410.18918",
         "year": "2024",
-        "author": "Sethuraman, Muralikrishnna G. and Nabi, Razieh and Fekri, Faramarz",
+        "author": " Muralikrishnna G. Sethuraman,  Razieh Nabi, and  Faramarz Fekri",
         "title": "Learning Cyclic Causal Graphs from Incomplete Data",
         "booktitle": "Preprint Under Review",
         "ENTRYTYPE": "inproceedings",
@@ -40,7 +48,7 @@
         "selected": "true",
         "year": "2023",
         "abstract": "Learning causal relationships between variables is a well-studied problem in statistics, with many important applications in science. However, modeling real-world systems remain challenging, as most existing algorithms assume that the underlying causal graph is acyclic. While this is a convenient framework for developing theoretical developments about causal reasoning and inference, the underlying modeling assumption is likely to be violated in real systems, because feedback loops are common (e.g., in biological systems). Although a few methods search for cyclic causal models, they usually rely on some form of linearity, which is also limiting, or lack a clear underlying probabilistic model. In this work, we propose a novel framework for learning nonlinear cyclic causal graphical models from interventional data, called NODAGS-Flow. We perform inference via direct likelihood optimization, employing techniques from residual normalizing flows for likelihood estimation. Through synthetic experiments and an application to single-cell high-content perturbation screening data, we show significant performance improvements with our approach compared to state-of-the-art methods with respect to structure recovery and predictive performance.",
-        "author": "Sethuraman, Muralikrishnna G. and Lopez, Romain and Mohan, Rahul and Fekri, Faramarz and Biancalani, Tommaso and H\u00fctter, Jan-Christian",
+        "author": " Muralikrishnna G. Sethuraman,  Romain Lopez,  Rahul Mohan,  Faramarz Fekri,  Tommaso Biancalani, and  Jan-Christian H\u00fctter",
         "title": "NODAGS-Flow: Nonlinear Cyclic Causal Structure Learning",
         "booktitle": "Twenty Sixth International Conference on Artificial Intelligence and Statistics (AISTATS)",
         "ENTRYTYPE": "inproceedings",
@@ -56,7 +64,7 @@
         "year": "2023",
         "abstract": "In this paper, we propose a general framework for designing sensing matrix A, for estimation of sparse covariance matrix from compressed measurements of the form y = Ax + n. By viewing covariance recovery as inference over factor graphs via message passing algorithm, ideas from coding theory, such as Density evolution (DE), are leveraged to construct a framework for the design of the sensing matrix. The proposed framework can handle both (1) regular sensing, i.e., equal importance is given to all entries of the covariance, and (2) preferential sensing, i.e., higher importance is given to a part of the covariance matrix. Through experiments, we show that the sensing matrix designed via density evolution can match the state-of-the-art for covariance recovery in the regular sensing paradigm and attain improved performance in the preferential sensing regime. Additionally, we study the feasibility of causal graph structure recovery using the estimated covariance matrix obtained from the compressed measurements.",
         "title": "A Density Evolution Framework for Recovery of Covariance and Causal Graphs from Compressed Measurements",
-        "author": "Sethuraman, Muralikrishnna G. and Zhang, Hang and Fekri, Faramarz",
+        "author": " Muralikrishnna G. Sethuraman,  Hang Zhang, and  Faramarz Fekri",
         "url": "https://arxiv.org/abs/2203.09636",
         "booktitle": "Fifty Ninth Annual Allerton Conference on Communication, Control, and Computing",
         "ENTRYTYPE": "inproceedings",
@@ -75,7 +83,7 @@
         "year": "2021",
         "title": "Visual Question Answering based on Formal Logic",
         "booktitle": "2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA)",
-        "author": "Sethuraman, Muralikrishnna G. and Payani, Ali and Fekri, Faramarz and Kerce, J. Clayton",
+        "author": " Muralikrishnna G. Sethuraman,  Ali Payani,  Faramarz Fekri, and  J. Clayton Kerce",
         "ENTRYTYPE": "inproceedings",
         "ID": "9680048"
     },
@@ -90,7 +98,7 @@
         "year": "2018",
         "title": "Batch Look Ahead Orthogonal Matching Pursuit",
         "booktitle": "2018 Twenty Fourth National Conference on Communications (NCC)",
-        "author": "Sethuraman, Muralikrishnna G. and Ambat, Sooraj K. and Hari, K.V.S.",
+        "author": " Muralikrishnna G. Sethuraman,  Sooraj K. Ambat, and  K.V.S. Hari",
         "ENTRYTYPE": "inproceedings",
         "ID": "8600087"
     }

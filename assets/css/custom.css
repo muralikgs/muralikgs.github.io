@@ -246,6 +246,7 @@ ul.publications {
 
 .author-me {
     text-decoration: underline;
+    font-style: italic;
 }
 
 /* Margin visualization for editing purposes */

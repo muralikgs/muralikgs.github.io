@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-years: ["2025", "2024", "2023", "2021", "2018"]
+years: ["2026", "2025", "2024", "2023", "2021", "2018"]
 linktoheader: true
 ---
 
@@ -17,11 +17,11 @@ linktoheader: true
 {% if publication.year == year %}
 <div class="publication-entry">
     <strong>{{ publication.title }}</strong><br>
-    {% assign my_name = "Sethuraman, Muralikrishnna G." %}
+    {% assign my_name = "Muralikrishnna G. Sethuraman" %}
     {% if publication.author contains my_name %}
-    {{ publication.author | replace: my_name, '<span class="author-me">Sethuraman, Muralikrishnna G.</span>' }},<br>
+    {{ publication.author | replace: my_name, '<span class="author-me">Muralikrishnna G. Sethuraman</span>' }}<br>
     {% else %}
-    {{ publication.author }},<br>
+    {{ publication.author }}<br>
     {% endif %}
     In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
     {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]{% endif %} {% if publication.supp %}[<a href="{{ publication.supp }}">supp</a>]{% endif %} {% if publication.code %}[<a href="{{ publication.code }}">code</a>]{% endif %} {% if publication.video %}[<a href="{{ publication.video }}">video</a>]{% endif %}<br>
