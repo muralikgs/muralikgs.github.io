@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-years: ["2026", "2025", "2024", "2023", "2021", "2018"]
+years: ["2026", "2025", "2023", "2021", "2018"]
 linktoheader: true
 ---
 
