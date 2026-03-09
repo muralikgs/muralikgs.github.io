@@ -1,5 +1,14 @@
 [
     {
+        "pdf": "https://arxiv.org/pdf/2410.18918",
+        "year": "2026",
+        "author": " Muralikrishnna G. Sethuraman,  Razieh Nabi, and  Faramarz Fekri",
+        "title": "MissNODAG: Differentiable Learning of Cyclic Causal Graphs from Incomplete Data",
+        "booktitle": "Transactions on Machine Learning Research",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "sethuraman2026learning"
+    },
+    {
         "year": "2026",
         "author": " Alpar Turkoglu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
@@ -30,15 +39,6 @@
         "author": " Muralikrishnna G. Sethuraman,  Megan A. McSweeney,  Mark P. Styczynski, and  Faramarz Fekri",
         "ENTRYTYPE": "article",
         "ID": "10909690"
-    },
-    {
-        "pdf": "https://arxiv.org/pdf/2410.18918",
-        "year": "2024",
-        "author": " Muralikrishnna G. Sethuraman,  Razieh Nabi, and  Faramarz Fekri",
-        "title": "Learning Cyclic Causal Graphs from Incomplete Data",
-        "booktitle": "Preprint Under Review",
-        "ENTRYTYPE": "inproceedings",
-        "ID": "sethuraman2024learning"
     },
     {
         "bibtex_show": "true",
