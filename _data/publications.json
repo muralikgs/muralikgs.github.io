@@ -1,5 +1,13 @@
 [
     {
+        "year": "2026",
+        "author": " Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
+        "title": "RECLAIM: Cyclic Causal Discovery Amid Measurement Noise",
+        "booktitle": "Preprint Under Review",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "sethuraman2026reclaim"
+    },
+    {
         "pdf": "https://arxiv.org/pdf/2410.18918",
         "year": "2026",
         "author": " Muralikrishnna G. Sethuraman,  Razieh Nabi, and  Faramarz Fekri",
@@ -14,7 +22,7 @@
         "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
         "booktitle": "Preprint Under Review",
         "ENTRYTYPE": "inproceedings",
-        "ID": "sethuraman2024differentiable"
+        "ID": "turkoglu2026scout"
     },
     {
         "code": "https://github.com/muralikgs/dccd_conf",
