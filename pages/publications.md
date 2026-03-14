@@ -24,7 +24,7 @@ linktoheader: true
     {{ publication.author }}<br>
     {% endif %}
     In {% if publication.booktitle %}<i>{{ publication.booktitle }}</i>{% elsif publication.journal %}<i>{{ publication.journal }}</i>{% endif %} ({{ publication.year }})<br>
-    {% if publication.pdf %}[<a href="{{ publication.pdf }}">paper</a>]{% endif %} {% if publication.supp %}[<a href="{{ publication.supp }}">supp</a>]{% endif %} {% if publication.slides %}[<a href="{{ publication.slides }}">slides</a>]{% endif %} {% if publication.poster %}[<a href="{{ publication.poster }}">poster</a>]{% endif %} {% if publication.code %}[<a href="{{ publication.code }}">code</a>]{% endif %} {% if publication.video %}[<a href="{{ publication.video }}">video</a>]{% endif %}<br>
+    {% if publication.pdf %}<a href="{{ publication.pdf }}" class="pub-link">paper</a>{% endif %} {% if publication.supp %}<a href="{{ publication.supp }}" class="pub-link">supp</a>{% endif %} {% if publication.slides %}<a href="{{ publication.slides }}" class="pub-link">slides</a>{% endif %} {% if publication.poster %}<a href="{{ publication.poster }}" class="pub-link">poster</a>{% endif %} {% if publication.code %}<a href="{{ publication.code }}" class="pub-link">code</a>{% endif %} {% if publication.video %}<a href="{{ publication.video }}" class="pub-link">video</a>{% endif %}<br>
 </div>
 {% endif %}
 {% endfor %}
