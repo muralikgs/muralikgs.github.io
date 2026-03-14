@@ -1,5 +1,6 @@
 [
     {
+        "pdf": "/assets/pdf/reclaim/reclaim.pdf",
         "year": "2026",
         "author": " Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "RECLAIM: Cyclic Causal Discovery Amid Measurement Noise",
@@ -25,6 +26,8 @@
         "ID": "turkoglu2026scout"
     },
     {
+        "poster": "/assets/pdf/dccd-conf/dccd_conf_neurips_poster.pdf",
+        "slides": "/assets/pdf/dccd-conf/dccd_conf_neurips_presentation_short.pdf",
         "code": "https://github.com/muralikgs/dccd_conf",
         "pdf": "https://openreview.net/pdf?id=95z3psF9zJ",
         "year": "2025",
@@ -49,6 +52,8 @@
         "ID": "10909690"
     },
     {
+        "poster": "/assets/pdf/nodags-flow/nodags_flow_poster_aistats.pdf",
+        "slides": "/assets/pdf/nodags-flow/nodags_flow_presentation_aistats.pdf",
         "bibtex_show": "true",
         "video": "https://youtu.be/IUE5TFnzLpg",
         "code": "https://github.com/Genentech/nodags-flows",
@@ -63,8 +68,8 @@
         "ID": "sethuraman2023nodags"
     },
     {
-        "slides": "allerton-presentation.pdf",
-        "supp": "supplementary_notes_allerton.pdf",
+        "slides": "/assets/pdf/causality-compressed/allerton_presentation.pdf",
+        "supp": "/assets/pdf/causality-compressed/supplementary_materials_allerton.pdf",
         "pdf": "https://ieeexplore.ieee.org/document/10313414",
         "selected": "true",
         "bibtex_show": "true",
@@ -79,7 +84,7 @@
         "ID": "allerton"
     },
     {
-        "supp": "supplementary_materials_v1.pdf",
+        "supp": "/assets/pdf/supplementary_materials_v1.pdf",
         "selected": "true",
         "bibtex_show": "true",
         "pdf": "https://ieeexplore.ieee.org/abstract/document/9680048",
@@ -96,6 +101,8 @@
         "ID": "9680048"
     },
     {
+        "code": "https://github.com/muralikgs/BLAOMP",
+        "slides": "/assets/pdf/blaomp/BLAOMP.pdf",
         "bibtex_show": "true",
         "pdf": "https://ieeexplore.ieee.org/abstract/document/8600087",
         "abstract": "Compressed sensing (CS) is a sampling paradigm that enables sampling signals at sub Nyquist rates by exploiting the sparse nature of signals. One of the main concerns in CS is the reconstruction of the signal after sampling. Many reconstruction algorithms have been proposed in the literature for the recovery of the sparse signals - Basis Pursuit, Orthogonal Matching Pursuit (OMP), Look Ahead Orthogonal Matching Pursuit (LAOMP) are some of the popular reconstruction algorithms. LAOMP, a modification of OMP, improves the reconstruction accuracy of OMP by employing a look ahead procedure. But LAOMP suffers from the drawback of being very expensive in terms of the computational time. In this paper we propose a modified version of the LAOMP algorithm called Batch-LAOMP which has a lesser computational complexity and also gives better performance in terms of reconstruction accuracy as seen from the results of the numerical experiments.",
