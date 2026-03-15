@@ -20,8 +20,8 @@
 
 title: Murali G. Sethuraman
 email: muralikgs@gatech.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  PhD Candidate, Georgia Tech
+description_line1: "PhD Candidate, ECE"
+description_line2: "Georgia Tech"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://muralikgs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
