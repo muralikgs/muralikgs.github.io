@@ -23,7 +23,7 @@ email: muralikgs@gatech.edu
 description_line1: "PhD Candidate, ECE"
 description_line2: "Georgia Tech"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://muralikgs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "muralikgs.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: muralikgs
 google_scholar: Af5P1KEAAAAJ&hl
