@@ -3,6 +3,10 @@
    1. RESET / BASE
    ====================== */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     font-size: 16px;
@@ -10,6 +14,7 @@ body {
     line-height: 1.4;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1,
@@ -20,7 +25,26 @@ h3 {
 }
 
 h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    color: rgb(51, 51, 178);
+}
+
+.page-home h1 {
+    border-bottom: none;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    color: rgb(51, 51, 178);
+}
+
+h1 {
     font-size: 40px;
+    /* color: rgb(51, 51, 178); */
 }
 
 strong, b {
@@ -39,7 +63,7 @@ strong, b {
 }
 
 .sidebar {
-    width: 250px;
+    width: 300px;
     background-color: #ffffff;
     text-align: center;
     left: 10%;
@@ -122,7 +146,7 @@ strong, b {
     flex-direction: column;
     margin-top: 20px;
     gap: 4px;
-    border-top: 1px solid #ddd; 
+    /* border-top: 1px solid #ddd;  */
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -233,7 +257,9 @@ ul.publications {
 
     .sidebar {
         width: 100%;
-        border-right: none;
+        max-width: 300px;
+        margin: 0 auto;
+        /* border-right: none; */
         position: static;
         top: auto;
         height: auto;
@@ -241,8 +267,6 @@ ul.publications {
     }
 
     .sidebar-nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
     }
 }
