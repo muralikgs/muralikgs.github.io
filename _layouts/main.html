@@ -18,41 +18,6 @@
         />
     </head>
     <body>
-        <header class="main-header">
-            <div class="header-container">
-                <span class="left"
-                    ><a href="{{site.url}}">{{site.title}}</a></span
-                >
-                <span class="menu-icon" onclick="toggleMenu()">&#9776;
-                    <div class="dropdown-menu" id="dropdownMenu">
-                        {% for page in site.pages %} {% if page.linktoheader == true
-                        %}
-                        <a href="{{page.url}}">{{page.title}}</a>
-                        {% endif %} {% endfor %}
-                    </div>
-                </span>
-                <div class="right">
-                    {% for page in site.pages %} {% if page.linktoheader == true
-                    %}
-                    <span class="header-link"
-                        ><a href="{{page.url}}">{{page.title}}</a></span
-                    >
-                    {% endif %} {% endfor %}
-                </div>
-
-            </div>
-        </header>
-
-        <script>
-            function toggleMenu() {
-                var dropdownMenu = document.getElementById("dropdownMenu");
-                if (dropdownMenu.style.display === "block") {
-                    dropdownMenu.style.display = "none";
-                } else {
-                    dropdownMenu.style.display = "block";
-                }
-            }
-        </script>
 
         <div class="container">
             <!-- Sidebar -->
@@ -111,6 +76,12 @@
                         <i class="fa-solid fa-briefcase"></i>
                     </a>
                 </span>
+                <nav class="sidebar-nav">
+                    <a href="{{site.url}}">Home</a>
+                    {% for page in site.pages %}{% if page.linktoheader == true %}
+                    <a href="{{page.url}}">{{page.title}}</a>
+                    {% endif %}{% endfor %}
+                </nav>
             </aside>
 
             <!-- Main Content -->
