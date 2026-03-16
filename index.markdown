@@ -43,4 +43,13 @@ My research primarily focuses on Machine Learning, Probabilistic graphical model
   </li>
 </ul>
 
+## News
 
+<ul class="news-list">
+  {% for item in site.data.news %}
+  <li>
+    <span class="news-date">{{ item.date }}</span>
+    <span class="news-text">{{ item.text }}</span>
+  </li>
+  {% endfor %}
+</ul>

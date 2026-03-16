@@ -1,0 +1,5 @@
+- date: "Mar 2026"
+  text: "Our recent paper on causal discovery in the presence of <em>missing data and cycles</em> has been accepted to TMLR! Full paper coming soon."
+
+- date: "Dec 2025"
+  text: 'Presented our work on <em>causal discovery under hidden confounding</em> at NeurIPS 2025 in San Diego, CA. Great learning experience and had a great time interacting with others in the Causality community. You can find the poster <a href="/assets/pdf/dccd-conf/dccd_conf_neurips_poster.pdf">here</a>.'
