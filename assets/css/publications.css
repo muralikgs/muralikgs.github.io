@@ -11,3 +11,12 @@
 .publication-entry {
     margin-bottom: 1rem;
 }
+
+.abstract-box {
+    margin-top: 8px;
+    padding: 10px 14px;
+    border: 1px solid currentColor;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}

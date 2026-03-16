@@ -50,7 +50,7 @@ h1 {
 }
 
 strong, b {
-    font-weight: 550;
+    font-weight: 500;
 }
 
 /* ======================
@@ -171,12 +171,14 @@ strong, b {
    6. LINKS
    ====================== */
 
-.container a {
+.container a,
+.container button.pub-link {
     text-decoration: none;
     color: rgb(51, 51, 178);
 }
 
-.container a:hover {
+.container a:hover,
+.container button.pub-link:hover {
     text-decoration: underline;
 }
 
@@ -230,6 +232,13 @@ ul.education-list li {
     border-radius: 3px;
     font-size: 13px;
     text-decoration: none !important;
+    /* reset button defaults */
+    background: none;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    line-height: normal;
+    appearance: none;
 }
 
 ul.publications {
@@ -276,7 +285,28 @@ ul.news-list li:last-child {
 }
 
 /* ======================
-   10. RESPONSIVE
+   10. FOOTER
+   ====================== */
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: gray;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.site-footer a {
+    color: gray;
+}
+
+.site-footer a:hover {
+    color: rgb(51, 51, 178);
+}
+
+/* ======================
+   11. RESPONSIVE
    ====================== */
 
 @media (max-width: 1200px) {
