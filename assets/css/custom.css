@@ -60,15 +60,14 @@ strong, b {
 .container {
     display: flex;
     margin: 0 auto;
-    padding: 0px 300px;
-    left: 0;
+    padding: 0 clamp(20px, calc((100vw - 1200px) / 2), 300px);
 }
 
 .sidebar {
     width: 300px;
+    flex-shrink: 0;
     background-color: #ffffff;
     text-align: center;
-    left: 10%;
     margin-right: 25px;
     margin-top: 0;
     border: 1px solid #ddd;
@@ -280,7 +279,7 @@ ul.news-list li:last-child {
    10. RESPONSIVE
    ====================== */
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .header-container .left {
         font-size: 18px;
     }
