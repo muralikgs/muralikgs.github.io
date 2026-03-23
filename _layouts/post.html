@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body, {delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '\\[', right: '\\]', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false}
+            ]})">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </head>
+    <body>
+        <header class="post-topnav">
+            <div class="post-topnav-inner">
+                <span class="post-site-title"><a href="{{ site.url }}">{{ site.title }}</a></span>
+                <nav>
+                    <a href="{{ site.url }}">Home</a>
+                    {% for p in site.pages %}{% if p.linktoheader == true %}
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                    {% endif %}{% endfor %}
+                </nav>
+            </div>
+        </header>
+
+        <main class="post-body">
+            <div class="post-layout">
+                <div class="post-main">
+                    <div class="post-header">
+                        <h1 class="post-title">{{ page.title }}</h1>
+                        <div class="post-byline">
+                            {% if page.author %}
+                            <div class="byline-item">
+                                <span class="byline-label">Author</span>
+                                <span class="byline-value">{{ page.author }}</span>
+                            </div>
+                            {% endif %}
+                            <div class="byline-item">
+                                <span class="byline-label">Published</span>
+                                <span class="byline-value">{{ page.date | date: "%B %d, %Y" }}</span>
+                            </div>
+                        </div>
+                        {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+                    </div>
+
+                    <hr class="post-divider" />
+
+                    <article class="post-content">
+                        {{ content }}
+                    </article>
+                </div>
+
+                <aside class="post-toc">
+                    <div class="toc-title">Table of contents</div>
+                    <nav id="toc-nav"></nav>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="post-footer">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} &middot; Made with <a href="https://jekyllrb.com">Jekyll</a></p>
+        </footer>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const content = document.querySelector('.post-content');
+            const tocNav = document.getElementById('toc-nav');
+            if (!content || !tocNav) return;
+
+            const headings = Array.from(content.querySelectorAll('h2, h3, h4'));
+            if (headings.length === 0) {
+                document.querySelector('.post-toc').style.display = 'none';
+                return;
+            }
+
+            headings.forEach(function (h) {
+                const level = parseInt(h.tagName[1]);
+                const a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.className = 'toc-h' + level;
+                tocNav.appendChild(a);
+            });
+
+            // Highlight active section on scroll
+            const links = Array.from(tocNav.querySelectorAll('a'));
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        links.forEach(function (l) { l.classList.remove('active'); });
+                        const active = tocNav.querySelector('a[href="#' + entry.target.id + '"]');
+                        if (active) active.classList.add('active');
+                    }
+                });
+            }, { rootMargin: '-10% 0px -80% 0px' });
+
+            headings.forEach(function (h) { observer.observe(h); });
+        });
+        </script>
+    </body>
+</html>

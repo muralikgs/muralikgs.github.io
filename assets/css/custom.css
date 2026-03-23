@@ -58,7 +58,7 @@ strong, b {
 .container {
     display: flex;
     margin: 0 auto;
-    padding: 0 clamp(20px, calc((100vw - 1200px) / 2), 300px);
+    padding: 20px clamp(20px, calc((100vw - 1200px) / 2), 300px) 0;
 }
 
 .sidebar {
@@ -304,7 +304,46 @@ ul.news-list li:last-child {
 }
 
 /* ======================
-   11. RESPONSIVE
+   11. BLOG
+   ====================== */
+
+.post-meta {
+    font-size: 14px;
+    color: gray;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.blog-list-entry {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.blog-list-entry:last-child {
+    border-bottom: none;
+}
+
+.blog-list-entry a {
+    font-size: 16px;
+}
+
+.blog-list-entry .post-date {
+    font-size: 13px;
+    color: gray;
+    flex-shrink: 0;
+}
+
+.blog-list-entry .post-description {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0 0 0;
+}
+
+/* ======================
+   12. RESPONSIVE
    ====================== */
 
 @media (max-width: 1200px) {

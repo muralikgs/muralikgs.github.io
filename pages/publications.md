@@ -12,9 +12,8 @@ You can also find my publications at my
 [Google scholar](https://scholar.google.com/citations?user=Af5P1KEAAAAJ&hl) page.
 
 {% for year in page.years %}
-
-<h3 style="text-align: right; color: #acabab;">{{ year }}</h3>
-<hr style="border: 0; border-top: 1px solid #E3E3E3; margin: 4px 0;">
+<h3 style="text-align: right; color: #acabab; margin-bottom: 2px;">{{ year }}</h3>
+<hr style="border: 0; border-top: 1px solid #E3E3E3; margin: 2px 0;">
 
 {% for publication in site.data.publications %}
 {% if publication.year == year %}

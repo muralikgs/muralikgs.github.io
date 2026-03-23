@@ -1,0 +1,364 @@
+/* ======================
+   POST LAYOUT — distill.pub style
+   ====================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+/* ======================
+   TOP NAV
+   ====================== */
+
+.post-topnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    border-bottom: 1px solid #000000;
+    padding: 0 24px;
+}
+
+.post-topnav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+}
+
+.post-site-title a {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(51, 51, 178);
+    text-decoration: none;
+}
+
+.post-topnav nav {
+    display: flex;
+    gap: 6px;
+}
+
+.post-topnav nav a {
+    font-size: 14px;
+    color: rgb(51, 51, 178);
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    transition: background 0.15s;
+}
+
+.post-topnav nav a:hover {
+    background: #f0f0f0;
+    color: #1a1a1a;
+}
+
+/* ======================
+   POST BODY & LAYOUT
+   ====================== */
+
+.post-body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+}
+
+.post-layout {
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.post-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ======================
+   POST HEADER
+   ====================== */
+
+.post-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 24px 0;
+    color: #1a1a1a;
+}
+
+.post-byline {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 12px;
+}
+
+.byline-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.byline-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.byline-value {
+    font-size: 15px;
+    color: #1a1a1a;
+}
+
+.post-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 12px 0 0 0;
+    font-style: italic;
+}
+
+.post-divider {
+    border: none;
+    /* border-top: 1px solid #e0e0e0; */
+    margin: 24px 0 16px;
+}
+
+/* ======================
+   TABLE OF CONTENTS SIDEBAR
+   ====================== */
+
+.post-toc {
+    width: 200px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 72px;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.toc-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+#toc-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#toc-nav a {
+    display: block;
+    padding: 3px 8px;
+    color: #444;
+    text-decoration: none;
+    border-left: 2px solid #e0e0e0;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+#toc-nav a:hover {
+    color: rgb(51, 51, 178);
+    border-left-color: rgb(51, 51, 178);
+}
+
+#toc-nav a.active {
+    color: rgb(51, 51, 178);
+    border-left-color: rgb(51, 51, 178);
+}
+
+#toc-nav a.toc-h3 { padding-left: 16px; }
+#toc-nav a.toc-h4 { padding-left: 24px; }
+
+/* ======================
+   POST CONTENT TYPOGRAPHY
+   ====================== */
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+    color: #1a1a1a;
+}
+
+.post-content h1 { font-size: 1.8rem; }
+.post-content h2 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 6px;
+}
+.post-content h3 { font-size: 1.15rem; }
+
+.post-content p {
+    margin: 0 0 1.1rem 0;
+}
+
+.post-content a {
+    color: rgb(51, 51, 178);
+    text-decoration: none;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}
+
+.post-content ul,
+.post-content ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.post-content li {
+    margin-bottom: 0.3rem;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #ddd;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1.2rem;
+    color: #555;
+    background: #fafafa;
+}
+
+/* ======================
+   CODE
+   ====================== */
+
+.post-content code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.875em;
+    background: #f5f5f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.post-content pre {
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    overflow-x: auto;
+    margin: 0 0 1.5rem 0;
+}
+
+.post-content pre code {
+    background: none;
+    padding: 0;
+    font-size: 0.85em;
+    line-height: 1.6;
+}
+
+/* ======================
+   MATH
+   ====================== */
+
+.post-content .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem 0;
+}
+
+/* ======================
+   IMAGES & FIGURES
+   ====================== */
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+}
+
+.post-content figure {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.post-content figcaption {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+}
+
+/* ======================
+   TABLE
+   ====================== */
+
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.post-content th,
+.post-content td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.post-content th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+/* ======================
+   FOOTER
+   ====================== */
+
+.post-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: gray;
+    border-top: 1px solid #eee;
+}
+
+.post-footer a { color: gray; }
+.post-footer a:hover { color: rgb(51, 51, 178); }
+
+/* ======================
+   RESPONSIVE
+   ====================== */
+
+@media (max-width: 900px) {
+    .post-toc {
+        display: none;
+    }
+
+    .post-body {
+        padding: 32px 20px 60px;
+    }
+
+    .post-title {
+        font-size: 1.7rem;
+    }
+
+    .post-topnav-inner {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 8px;
+    }
+}

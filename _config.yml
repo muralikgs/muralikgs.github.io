@@ -52,7 +52,18 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+kramdown:
+  math_engine: null
+
 include:
   - assets
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:title/
 
 
