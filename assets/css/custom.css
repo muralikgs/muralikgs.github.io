@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Goudy+Bookletter+1911&display=swap');
-
 /* ======================
    1. RESET / BASE
    ====================== */
@@ -11,9 +9,9 @@
 
 body {
     font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -50,7 +48,7 @@ h1 {
 }
 
 strong, b {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* ======================

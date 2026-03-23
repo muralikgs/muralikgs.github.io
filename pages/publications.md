@@ -8,6 +8,9 @@ linktoheader: true
 
 # {{page.title}}
 
+You can also find my publications at my 
+[Google scholar](https://scholar.google.com/citations?user=Af5P1KEAAAAJ&hl) page.
+
 {% for year in page.years %}
 
 <h3 style="text-align: right; color: #acabab;">{{ year }}</h3>
