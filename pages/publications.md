@@ -6,8 +6,6 @@ years: ["2026", "2025", "2023", "2021", "2018"]
 linktoheader: true
 ---
 
-# {{page.title}}
-
 You can also find my publications at my 
 [Google scholar](https://scholar.google.com/citations?user=Af5P1KEAAAAJ&hl) page.
 

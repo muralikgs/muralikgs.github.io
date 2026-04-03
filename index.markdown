@@ -4,9 +4,8 @@
 
 layout: page
 title: Home
+h1_title: "Murali G. Sethuraman"
 ---
-
-# Murali G. Sethuraman
 
 ## About
 

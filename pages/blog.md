@@ -3,9 +3,8 @@ layout: page
 title: Blog
 permalink: /blog/
 linktoheader: true
+h1_title: "Causal Diaries"
 ---
-
-# Causal Diaries
 
 Welcome to my blog! Stay tuned for more posts. 
 
