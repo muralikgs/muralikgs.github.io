@@ -1,3 +1,6 @@
+- date: "Apr 2026"
+  text: "Our TMLR paper on cyclic causal discovery under missing data is out! You can find the paper <a href='https://openreview.net/pdf?id=nNZXQ3Q0GP'>here</a>, and the code <a href='https://github.com/muralikgs/missnodag'>here</a>."
+
 - date: "Mar 2026"
   text: "Our recent paper on causal discovery in the presence of <em>missing data and cycles</em> has been accepted to TMLR! Full paper coming soon."
 
