@@ -8,10 +8,10 @@
 }
 
 body {
-    font-family: serif;
-    font-size: 17px;
+    font-family: sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1.3;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: serif;
+    font-family: sans-serif;
     font-weight: 300;
     font-variant: small-caps;
 }
@@ -105,7 +105,7 @@ strong, b {
 
 .name {
     font-size: 24px;
-    font-family: serif;
+    font-family: sans-serif;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 5px;

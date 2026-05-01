@@ -9,6 +9,15 @@
         "ID": "sethuraman2026reclaim"
     },
     {
+        "abs": "Learning causal relationships between variables from data is a fundamental research area with many applications across disciplines. Most of the existing causal discovery algorithms rely on the assumptions that (i) the underlying system is acyclic, (ii) the exogenous noise variables are Gaussian, and (iii) that the intervention targets for the data generating experiments are known. While these assumptions simplify the analysis, they are violated in real-life systems. Most existing methods that address these issues either assume the underlying model is linear or are constrained to operate in limited interventional settings. To that end, we propose SCOUT, a novel causal discovery framework to learn nonlinear causal cyclic relationships from soft interventional data with unknown targets. Our main approach maximizes the data log-likelihood to recover the graph structure, using two normalizing-flow architectures—contractive residual flows and neural spline flows. By conducting experiments on synthetic and real-world data, we show that SCOUT outperforms state-of-the-art methods in both causal graph and unknown target recovery across various interventional and noise settings.  ", 
+        "year": "2026",
+        "author": " Alpar Turkoglu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
+        "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
+        "booktitle": "International Conference on Machine Learning",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "turkoglu2026scout"
+    },
+    {
         "abs": "Causal discovery in real-world systems, such as biological networks, is often complicated by feedback loops and incomplete data. Standard algorithms, which assume acyclic structures or fully observed data, struggle with these challenges. To address this gap, we propose MissNODAG, a differentiable framework for learning both the underlying cyclic causal graph and the missingness mechanism from partially observed data, including data <em>missing not at random</em>. Our framework integrates an additive noise model with an expectation-maximization procedure, alternating between imputing missing values and optimizing the observed data likelihood, to uncover both the cyclic structures and the missingness mechanism. We establish consistency guarantees under exact maximization of the score function in the large sample setting. Finally, we demonstrate the effectiveness of MissNODAG through synthetic experiments and an application to real-world gene perturbation data.",
         "pdf": "https://openreview.net/pdf?id=nNZXQ3Q0GP",
         "year": "2026",
@@ -18,14 +27,6 @@
         "booktitle": "Transactions on Machine Learning Research",
         "ENTRYTYPE": "inproceedings",
         "ID": "sethuraman2026learning"
-    },
-    {
-        "year": "2026",
-        "author": " Alpar Turkoglu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
-        "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
-        "booktitle": "Preprint Under Review",
-        "ENTRYTYPE": "inproceedings",
-        "ID": "turkoglu2026scout"
     },
     {
         "abs": "Understanding causal relationships between variables is fundamental across scientific disciplines. Most causal discovery algorithms rely on two key assumptions: (i) all variables are observed, and (ii) the underlying causal graph is acyclic. While these assumptions simplify theoretical analysis, they are often violated in real-world systems, such as biological networks. Existing methods that account for confounders either assume linearity or struggle with scalability. To address these limitations, we propose DCCD-CONF, a novel framework for differentiable learning of nonlinear cyclic causal graphs in the presence of unmeasured confounders using interventional data. Our approach alternates between optimizing the graph structure and estimating the confounder distribution by maximizing the log-likelihood of the data. Through experiments on synthetic data and real-world gene perturbation datasets, we show that DCCD-CONF outperforms state-of-the-art methods in both causal graph recovery and confounder identification. Additionally, we provide consistency guarantees for our framework, reinforcing its theoretical soundness.",
