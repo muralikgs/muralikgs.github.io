@@ -1,5 +1,5 @@
 - date: "May 2026"
-  text: "Our recent paper on cyclic causal discovery under soft-interventions and unknown interventional targets has been accepted to ICML (2026), you can find the paper <a href='https://arxiv.org/pdf/2605.16620'>here</a>". 
+  text: "Our recent paper on cyclic causal discovery under soft-interventions and unknown interventional targets has been accepted to ICML (2026), you can find the paper <a href='https://arxiv.org/pdf/2605.16620'>here</a>." 
 
 - date: "Apr 2026"
   text: "Our TMLR paper on cyclic causal discovery under missing data is out! You can find the paper <a href='https://openreview.net/pdf?id=nNZXQ3Q0GP'>here</a>, and the code <a href='https://github.com/muralikgs/missnodag'>here</a>."
