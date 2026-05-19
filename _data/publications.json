@@ -13,6 +13,8 @@
         "year": "2026",
         "author": " Alpar Turkoglu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
+        "pdf": "https://arxiv.org/pdf/2605.16620",
+        "code": "https://github.com/alparturkoglu/scout-master",
         "booktitle": "International Conference on Machine Learning",
         "ENTRYTYPE": "inproceedings",
         "ID": "turkoglu2026scout"
