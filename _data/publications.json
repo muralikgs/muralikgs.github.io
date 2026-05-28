@@ -4,7 +4,7 @@
         "year": "2026",
         "author": " Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "RECLAIM: Cyclic Causal Discovery Amid Measurement Noise",
-        "booktitle": "Preprint Under Review",
+        "booktitle": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)",
         "ENTRYTYPE": "inproceedings",
         "ID": "sethuraman2026reclaim"
     },
@@ -15,7 +15,7 @@
         "title": "SCOUT: Cyclic Causal Discovery Under Soft Interventions with Unknown Targets",
         "pdf": "https://arxiv.org/pdf/2605.16620",
         "code": "https://github.com/alparturkoglu/scout-master",
-        "booktitle": "International Conference on Machine Learning",
+        "booktitle": "International Conference on Machine Learning (ICML)",
         "ENTRYTYPE": "inproceedings",
         "ID": "turkoglu2026scout"
     },
@@ -26,7 +26,7 @@
         "author": " Muralikrishnna G. Sethuraman,  Razieh Nabi, and  Faramarz Fekri",
         "title": "MissNODAG: Differentiable Learning of Cyclic Causal Graphs from Incomplete Data",
         "code": "https://github.com/muralikgs/missnodag",
-        "booktitle": "Transactions on Machine Learning Research",
+        "booktitle": "Transactions on Machine Learning Research (TMLR)",
         "ENTRYTYPE": "inproceedings",
         "ID": "sethuraman2026learning"
     },
