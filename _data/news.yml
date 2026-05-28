@@ -1,4 +1,7 @@
 - date: "May 2026"
+  text: "Our recent paper on cyclic causal discovery under the influence of measurement noise has been accepted to ECML-PKDD (2026), you can find the preprint <a href='https://arxiv.org/pdf/2603.20585'>here</a>." 
+
+- date: "May 2026"
   text: "Our recent paper on cyclic causal discovery under soft-interventions and unknown interventional targets has been accepted to ICML (2026), you can find the paper <a href='https://arxiv.org/pdf/2605.16620'>here</a>." 
 
 - date: "Apr 2026"
