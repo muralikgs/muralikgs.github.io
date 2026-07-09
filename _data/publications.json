@@ -1,12 +1,22 @@
 [
     {
+        "year": "2026",
+        "author": "Hang Zhang, Muralikrishnna G. Sethuraman, Afshin Abdi, and  Faramarz Fekri",
+        "title": "Structure Learning in Graphical Models from Indirect Observations",
+        "booktitle": "Preprint under review",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "zhang2026structure"
+    },
+    {
         "pdf": "https://arxiv.org/pdf/2603.20585",
         "year": "2026",
         "author": " Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
         "title": "RECLAIM: Cyclic Causal Discovery Amid Measurement Noise",
         "booktitle": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)",
         "ENTRYTYPE": "inproceedings",
-        "ID": "sethuraman2026reclaim"
+        "ID": "sethuraman2026reclaim",
+        "abs": "Uncovering causal relationships is a fundamental problem across science and engineering. However, most existing causal discovery methods assume acyclicity and direct access to the system variables—assumptions that fail to hold in many real-world settings. For instance, in genomics, cyclic regulatory networks are common, and measurements are often corrupted by instrumental noise. To address these challenges, we propose RECLAIM, a causal discovery framework that natively handles both cycles and measurement noise. RECLAIM learns the causal graph structure by maximizing the likelihood of the observed measurements via expectation-maximization (EM), using residual normalizing flows for tractable likelihood computation. We consider two measurement models: (i) Gaussian additive noise, and (ii) a linear measurement system with additive Gaussian noise. We provide theoretical consistency guarantees for both the settings. Experiments on synthetic data and real-world protein signaling datasets demonstrate the efficacy of the proposed method.",
+        "code": "https://github.com/muralikgs/reclaim-causal"
     },
     {
         "abs": "Learning causal relationships between variables from data is a fundamental research area with many applications across disciplines. Most of the existing causal discovery algorithms rely on the assumptions that (i) the underlying system is acyclic, (ii) the exogenous noise variables are Gaussian, and (iii) that the intervention targets for the data generating experiments are known. While these assumptions simplify the analysis, they are violated in real-life systems. Most existing methods that address these issues either assume the underlying model is linear or are constrained to operate in limited interventional settings. To that end, we propose SCOUT, a novel causal discovery framework to learn nonlinear causal cyclic relationships from soft interventional data with unknown targets. Our main approach maximizes the data log-likelihood to recover the graph structure, using two normalizing-flow architectures—contractive residual flows and neural spline flows. By conducting experiments on synthetic and real-world data, we show that SCOUT outperforms state-of-the-art methods in both causal graph and unknown target recovery across various interventional and noise settings.  ", 
