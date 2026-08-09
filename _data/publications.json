@@ -1,4 +1,22 @@
-[
+[   
+    {
+        "year": "2026",
+        "author": "Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
+        "title": "Identification of Linear Stochastic Differential Equations for Causal Inference Under Unmeasured Confounding",
+        "booktitle": "Preprint under review",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "sethuraman2026identification",
+        "abs": "Stochastic differential equations (SDEs) are widely used to model mechanistic systems evolving under random perturbations. For linear SDEs, the system's generator determines the post-intervention distributions, making its identifiability essential for causal inference. However, existing identifiability results assume the system is fully observed, whereas real systems are routinely subject to unmeasured confounders. To address this limitation, we study linear SDEs whose observed component is driven by a latent linear differential equation, considering both deterministic and stochastic confounding regimes. We characterize identifiable invariants comprising the observed drift, the diffusion Gram matrix, a family of mean-channel vectors, and (under stochastic confounding) a family of latent-noise matrices. We establish that identifiability holds if and only if a specific identifiability matrix constructed from Krylov subspaces of the identifiable invariants has full rank, which recovers the fully observed case as a special case. We validate these theoretical results through synthetic experiments that corroborate our findings."
+    },
+    {
+        "year": "2026",
+        "author": " Alpar Türkoğlu,  Muralikrishnna G. Sethuraman, and  Faramarz Fekri",
+        "title": "PRISM: Active Intervention Selection for Linear Cyclic Causal Discovery",
+        "booktitle": "Preprint under review",
+        "ENTRYTYPE": "inproceedings",
+        "ID": "turkoglu2026prism",
+        "abs": "Inferring causal relationships among variables from data is a central problem with applications across many domains. However, observational data alone generally identifies only an equivalence class rather than the exact causal graph. This challenge is more pronounced in systems with feedback loops, where observational data may fail to identify even the graph skeleton. Interventional data can resolve these ambiguities, but existing approaches often require designs covering all nodes, which can be costly in scientific applications. Moreover, active intervention selection has been studied primarily in acyclic settings. We propose PRISM, a parent-revealing active intervention selection framework for causal discovery in linear Gaussian cyclic structural equation models. PRISM combines a differentiable likelihood-based graph learner with two complementary criteria: an entropy-based criterion targeting nodes with uncertain incoming edges, and an equivalence-class reduction criterion selecting an intervention that maximally shrinks the remaining candidate graph class. We prove that a single-node hard intervention identifies the intervened node's parent vector. For any fixed candidate class, we further prove that the reduction objective is adaptive monotone and adaptive submodular, yielding the standard near-optimality guarantee for greedy intervention selection. Experiments on synthetic cyclic SEMs demonstrate near-perfect graph recovery with substantially fewer interventions than existing baselines."
+    },
     {
         "year": "2026",
         "author": "Hang Zhang, Muralikrishnna G. Sethuraman, Afshin Abdi, and  Faramarz Fekri",
